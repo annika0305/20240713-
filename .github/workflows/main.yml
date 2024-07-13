@@ -12,7 +12,7 @@ jobs:
           run:
             python3 send_mail.py
     build2:
-        name: dp job2
+        name: do job2
         runs-on: ubuntu-latest
         steps:
         - uses: actions/checkout@v2
